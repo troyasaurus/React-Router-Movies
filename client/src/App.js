@@ -9,6 +9,8 @@ const App = () => {
   const [savedList, setSavedList] = useState([]);
   const [movieList, setMovieList] = useState([]);
 
+ 
+
   useEffect(() => {
     const getMovies = () => {
       axios

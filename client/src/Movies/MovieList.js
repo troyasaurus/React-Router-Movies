@@ -6,6 +6,7 @@ import {Link} from 'react-router-dom';
 const MovieList = props => {
   console.log(props.movieList)
   return (
+ 
     <div className="movie-list">
       {props.movieList.map(movie => (
         <MovieDetails key={movie.id} movie={movie} />
